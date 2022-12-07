@@ -17,7 +17,7 @@ const songList = [
 ]
 
 //Capturar elementos del DOM
-const songs = document.getElementsByClassName("songs")
+const songs = document.getElementById("songs")
 
 //cargar canciones y mostrar listado
 
@@ -30,7 +30,6 @@ function loadSongs(){
         link.href = "#"
         li.appendChild(link)
         songs.appendChild(li)
-        
     })
 }
 
