@@ -89,3 +89,9 @@ body{
     text-decoration: none;
 
 }
+
+.songs a.activo{
+    color: rgb(165, 243, 39);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
