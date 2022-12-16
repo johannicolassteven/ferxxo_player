@@ -12,30 +12,40 @@
 </head>
 <body>
 
+    <!-- <div class="albums">
+        <section class="album">Album1</section>
+        <section class="album">Album2</section>
+        <Section class="album">Album3</Section>
+    </div> -->
+
     <!-- player -->
     <main class="player">
         <!-- title -->
-        <h1>Nueva canción</h1>
+        <h1 class="title" id="title"></h1>
 
         <!-- cover -->
-        <img src="img/img1.jpg" alt="" class="cover">
+        <img src="" alt="" class="cover" id="cover">
+
+        <!-- audio -->
+
+        <audio src="" id="audio"></audio>
 
 
         <!-- progress bar -->
-        <div class="progress-container">
-            <section class="progress"></section>
+        <div id="progress-container" class="progress-container">
+            <section class="progress" id="progress"></section>
         </div>
 
         <!-- controls -->
         <section class="controls">
             <button class="prev">
-                <i class="fas fa-backward"></i>
+                <i id="prev" class="fas fa-backward"></i>
             </button>
             <button class="play">
-                <i class="fas fa-play"></i>
+                <i id="play" class="fas fa-play"></i>
             </button>
             <button class="next">
-                <i class="fas fa-forward"></i>
+                <i id="next" class="fas fa-forward"></i>
             </button>
         </section>
 
@@ -47,7 +57,6 @@
         </ul>
 
     </main>
-
 
 
 </body>

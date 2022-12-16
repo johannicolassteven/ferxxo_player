@@ -4,13 +4,23 @@ html, body{
     height: 100%;
 }
 
-body{
+body {
     font-family: sans-serif;
-    background-color: lightgray;
+    background-color: rgb(141, 245, 120);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* .albums{
+    background-color: rgb(198, 248, 188);
+    width: 10%;
+    min-width: 70px;
+}
+
+.album{
+    margin-bottom: 1rem;
+} */
 
 
 /* player */
@@ -34,7 +44,7 @@ body{
 
 /* cover */
 .cover{
-    width: 150px;
+    width: 170px;
     height: auto;
     border-radius: .3rem;
     display: block;
@@ -51,7 +61,7 @@ body{
 
 .progress{
     background-color: rgb(165, 243, 39);
-    width: 60%;
+    width: 0;
     height: 100%;
 }
 
